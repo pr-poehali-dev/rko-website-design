@@ -8,123 +8,115 @@ const Index = () => {
   const banks = [
     {
       id: 1,
-      name: "Сбер Бизнес",
-      logo: "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/sberbank.png",
-      rating: 4.8,
+      name: "ПСБ банк",
+      logo: "https://avtodor-tr.ru/upload/medialibrary/008/psb.png",
+      rating: 4.6,
       advantages: [
-        "Крупнейший банк России с развитой инфраструктурой",
-        "Бесплатное ведение счета при обороте от 300 000₽",
-        "Интернет-банк СберБизнес с полным функционалом",
-        "Круглосуточная техподдержка и широкая сеть отделений"
+        "Государственный банк с высокой надежностью и стабильностью",
+        "Специальные условия для среднего и крупного бизнеса",
+        "Развитая сеть отделений по всей России",
+        "Комплексные решения для корпоративных клиентов"
       ],
-      tariff: "Легкий старт",
+      tariff: "Бизнес Старт",
       monthlyFee: "0₽",
-      features: ["0₽ за РКО", "SMS уведомления", "Интернет-банк", "Эквайринг 0.8%"]
+      features: ["Государственные гарантии", "Корпоративное обслуживание", "Валютные операции", "Зарплатные проекты"],
+      link: "https://go.leadgid.ru/aff_c?aff_id=131245&offer_id=7029&p=adnetwork"
     },
     {
       id: 2,
-      name: "Альфа-Банк",
-      logo: "https://logos-world.net/wp-content/uploads/2020/05/Alfa-Bank-Logo.png",
+      name: "Озон банк",
+      logo: "https://img2.teletype.in/files/da/64/da64a340-e436-4a30-8f20-b7fffa0ae6be.png",
       rating: 4.7,
       advantages: [
-        "Технологичный банк с удобным мобильным приложением",
-        "0₽ за ведение счета первые 3 месяца",
-        "100 операций бесплатно в месяц",
-        "Быстрое обслуживание и персональный менеджер"
+        "Банк экосистемы OZON с инновационными решениями для бизнеса",
+        "Интеграция с маркетплейсом OZON для продавцов",
+        "Современные цифровые сервисы и API для автоматизации",
+        "Выгодные условия для интернет-торговли и e-commerce"
       ],
-      tariff: "Старт",
+      tariff: "Цифровой бизнес",
       monthlyFee: "0₽",
-      features: ["100 операций бесплатно", "Мобильный банк", "API интеграция", "Быстрые переводы"]
+      features: ["Интеграция с OZON", "E-commerce решения", "API автоматизация", "Цифровой эквайринг"],
+      link: "https://go.leadgid.ru/aff_c?aff_id=131245&offer_id=6835&p=adnetwork"
     },
     {
       id: 3,
-      name: "Тинькофф Банк",
-      logo: "https://logos-world.net/wp-content/uploads/2020/04/Tinkoff-Logo.png",
-      rating: 4.9,
+      name: "АК БАРС банк",
+      logo: "https://www.unics.ru/upload/iblock/32d/32d04103b92d4db2638eccece08c0957.jpg",
+      rating: 4.5,
       advantages: [
-        "100% цифровой банк без отделений, лидер по инновациям",
-        "Полностью дистанционное обслуживание",
-        "Кэшбэк до 15% с бизнес-карты",
-        "Интеграция с популярными сервисами и 1С"
+        "Ведущий банк Республики Татарстан с богатым опытом",
+        "Сильные позиции в регионах Поволжья и Урала",
+        "Специализация на обслуживании малого и среднего бизнеса",
+        "Льготные программы кредитования для развития бизнеса"
       ],
-      tariff: "Бизнес-старт",
+      tariff: "Региональный лидер",
       monthlyFee: "0₽",
-      features: ["Без походов в офис", "Онлайн-касса", "Юридическая поддержка", "Автоматизация"]
+      features: ["Региональная экспертиза", "Льготное кредитование", "Поддержка МСБ", "Отраслевые решения"],
+      link: "https://go.leadgid.ru/aff_c?aff_id=131245&offer_id=6591&p=adnetwork"
     },
     {
       id: 4,
-      name: "ВТБ Бизнес",
-      logo: "https://logos-world.net/wp-content/uploads/2020/05/VTB-Logo.png",
-      rating: 4.5,
+      name: "УБРиР банк",
+      logo: "https://ppm.edu.urfu.ru/media/uploads/10110/organizations/%D1%83%D0%B1%D1%80%D0%B8%D1%80.png",
+      rating: 4.4,
       advantages: [
-        "Надежный государственный банк с широкой линейкой продуктов",
-        "Льготный период обслуживания 6 месяцев",
-        "Комплексное обслуживание крупного бизнеса",
-        "Специализация на корпоративном банкинге"
+        "Уральский банк с глубоким пониманием регионального бизнеса",
+        "Сильные позиции в металлургии, машиностроении и строительстве",
+        "Опыт работы с государственными контрактами и тендерами",
+        "Специальные программы для агропромышленного комплекса"
       ],
-      tariff: "Мой бизнес",
+      tariff: "Уральский бизнес",
       monthlyFee: "0₽",
-      features: ["Корпоративные карты", "Валютные операции", "Торговый эквайринг", "CRM интеграция"]
+      features: ["Региональная экспертиза", "Госконтракты", "Промышленность", "Агробизнес"],
+      link: "https://go.leadgid.ru/aff_c?aff_id=131245&offer_id=6096&p=adnetwork"
     },
     {
       id: 5,
-      name: "Модульбанк",
-      logo: "https://static.tildacdn.com/tild3736-3432-4235-b631-653130656238/logo.svg",
-      rating: 4.6,
+      name: "ЛОКО банк",
+      logo: "https://data.cbonds.info/organisations_logos/164/logo_vert_bord_rus.jpg",
+      rating: 4.3,
       advantages: [
-        "Специализируется на малом бизнесе, простая отчетность",
-        "Максимально удобный документооборот",
-        "Кэшбэк до 20% на остаток",
-        "Интегрированная бухгалтерия и зарплатный проект"
+        "Специализированный банк с фокусом на транспортную отрасль",
+        "Уникальные решения для логистических и транспортных компаний",
+        "Глубокая экспертиза в железнодорожной отрасли",
+        "Индивидуальный подход к каждому корпоративному клиенту"
       ],
-      tariff: "Модуль",
+      tariff: "Транспортный",
       monthlyFee: "0₽",
-      features: ["Документооборот", "Зарплатный проект", "Бухгалтерия онлайн", "Умные уведомления"]
+      features: ["Транспортная экспертиза", "Логистические решения", "ЖД финансирование", "Отраслевой фокус"],
+      link: "https://go.leadgid.ru/aff_c?aff_id=131245&offer_id=5626&p=adnetwork"
     },
     {
       id: 6,
-      name: "Райффайзенбанк",
-      logo: "https://logos-world.net/wp-content/uploads/2020/04/Raiffeisen-Bank-Logo.png",
-      rating: 4.4,
+      name: "УРАЛСИБ банк",
+      logo: "https://www.fa.ru/upload/constructor/11c/91c14sk2d646hb8cvbw5umx4zvyuigp2/logo_uralsib_1.png",
+      rating: 4.2,
       advantages: [
-        "Европейские стандарты обслуживания и надежность",
-        "Премиум обслуживание с персональным менеджером",
-        "Широкие возможности для инвестиций",
-        "Индивидуальный подход к каждому клиенту"
+        "Универсальный коммерческий банк с широкой филиальной сетью",
+        "Комплексное банковское обслуживание для бизнеса любого размера",
+        "Сильные позиции в регионах Сибири и Урала",
+        "Развитые продукты для внешнеэкономической деятельности"
       ],
-      tariff: "Старт",
-      monthlyFee: "490₽",
-      features: ["Премиум обслуживание", "Персональный менеджер", "Инвестпродукты", "Trade Finance"]
+      tariff: "Универсальный",
+      monthlyFee: "0₽",
+      features: ["Широкая сеть", "ВЭД операции", "Комплексное обслуживание", "Региональное присутствие"],
+      link: "https://go.leadgid.ru/aff_c?aff_id=131245&offer_id=5568&p=adnetwork"
     },
     {
       id: 7,
-      name: "УБРиР",
-      logo: "https://www.ubrr.ru/upload/iblock/eaa/logo_ubrir.png",
-      rating: 4.3,
+      name: "ОТП банк",
+      logo: "https://okna-forward.ru/wp-content/uploads/2021/09/6f0560413e976184f2ff001f582a9085-2048x672.png",
+      rating: 4.1,
       advantages: [
-        "Уральский банк с пониманием специфики регионального бизнеса",
-        "Льготное кредитование для местных предпринимателей",
-        "Специальные программы для работы с госконтрактами",
-        "Развитые продукты для агробизнеса"
+        "Венгерский банк с европейскими стандартами обслуживания",
+        "Индивидуальный подход и персональное обслуживание",
+        "Сильная экспертиза в области рискового менеджмента",
+        "Инновационные банковские продукты и технологии"
       ],
-      tariff: "Региональный",
+      tariff: "Европейский стандарт",
       monthlyFee: "0₽",
-      features: ["Региональная поддержка", "Льготное кредитование", "Госконтракты", "Агро продукты"]
-    },
-    {
-      id: 8,
-      name: "Точка Банк",
-      logo: "https://static.tochka.com/images/brand/logo.svg",
-      rating: 4.5,
-      advantages: [
-        "Молодой технологичный банк для современного бизнеса",
-        "Умная аналитика и бизнес-помощник",
-        "Кэшбэк до 12% на остаток по счету",
-        "Интеграции с популярными маркетплейсами"
-      ],
-      tariff: "Точка роста",
-      monthlyFee: "0₽",
-      features: ["Бизнес-помощник", "Умная аналитика", "Интеграции с 1С", "Маркетплейсы"]
+      features: ["Европейские стандарты", "Персональный сервис", "Риск-менеджмент", "Инновационные решения"],
+      link: "https://go.leadgid.ru/aff_c?aff_id=131245&offer_id=5526&p=adnetwork"
     }
   ];
 
@@ -144,7 +136,7 @@ const Index = () => {
           <nav className="flex items-center justify-between">
             <div className="flex items-center space-x-2">
               <Icon name="Building2" size={32} className="text-primary" />
-              <h1 className="text-2xl font-bold text-primary">РКО.Екатеринбург</h1>
+              <h1 className="text-2xl font-bold text-primary">Первыйбизнес</h1>
             </div>
             <div className="hidden md:flex space-x-6">
               <a href="#banks" className="text-muted-foreground hover:text-primary transition-colors">Банки</a>
@@ -162,17 +154,13 @@ const Index = () => {
           <h1 className="text-5xl font-bold text-primary mb-6">
             Расчетно-кассовое обслуживание
             <br />
-            <span className="text-secondary">для вашего бизнеса</span>
+            <span className="text-blue-900">для вашего бизнеса</span>
           </h1>
           <p className="text-xl text-muted-foreground mb-8 max-w-2xl mx-auto">
             Сравните предложения ведущих банков и выберите лучшие условия 
             для открытия расчетного счета в Екатеринбурге
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button size="lg" className="text-lg px-8">
-              <Icon name="Search" className="mr-2" size={20} />
-              Сравнить банки
-            </Button>
             <Button variant="outline" size="lg" className="text-lg px-8">
               <Icon name="Phone" className="mr-2" size={20} />
               Консультация
@@ -235,7 +223,11 @@ const Index = () => {
                     ))}
                   </div>
 
-                  <Button className="w-full text-base font-medium py-3 h-12" size="lg">
+                  <Button 
+                    className="w-full text-base font-medium py-3 h-12" 
+                    size="lg"
+                    onClick={() => window.open(bank.link, '_blank')}
+                  >
                     <Icon name="ExternalLink" className="mr-2" size={18} />
                     Оформить РКО
                   </Button>
