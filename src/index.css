@@ -6,34 +6,34 @@
 
 @layer base {
   :root {
-    /* Premium Grayscale Business Theme */
-    --background: 0 0% 98%;
-    --foreground: 210 12% 16%;
+    /* Dark Premium Business Theme */
+    --background: 210 11% 15%;
+    --foreground: 0 0% 98%;
 
-    --card: 0 0% 100%;
-    --card-foreground: 210 12% 16%;
+    --card: 210 11% 18%;
+    --card-foreground: 0 0% 98%;
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 210 12% 16%;
+    --popover: 210 11% 18%;
+    --popover-foreground: 0 0% 98%;
 
-    --primary: 210 12% 16%;
-    --primary-foreground: 0 0% 98%;
+    --primary: 0 0% 98%;
+    --primary-foreground: 210 11% 15%;
 
     --secondary: 215 16% 47%;
     --secondary-foreground: 0 0% 98%;
 
-    --muted: 210 40% 92%;
-    --muted-foreground: 215 16% 47%;
+    --muted: 215 13% 25%;
+    --muted-foreground: 215 20% 65%;
 
-    --accent: 210 40% 92%;
-    --accent-foreground: 210 12% 16%;
+    --accent: 215 13% 25%;
+    --accent-foreground: 0 0% 98%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 98%;
 
-    --border: 215 28% 87%;
-    --input: 215 28% 87%;
-    --ring: 210 12% 16%;
+    --border: 215 13% 25%;
+    --input: 215 13% 25%;
+    --ring: 0 0% 98%;
 
     --radius: 0.75rem;
 

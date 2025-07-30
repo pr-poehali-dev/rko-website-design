@@ -9,7 +9,7 @@ const Index = () => {
     {
       id: 1,
       name: "Сбербанк",
-      logo: "🏦",
+      logo: "/img/da88b59e-ae21-45ff-aac3-c6c3ee831c1f.jpg",
       rating: 4.8,
       advantages: [
         "Бесплатное ведение счета при обороте от 300 000₽",
@@ -24,7 +24,7 @@ const Index = () => {
     {
       id: 2,
       name: "Альфа-Банк",
-      logo: "🔴",
+      logo: "/img/6c03d267-df75-4d85-b4a1-c66cb0415461.jpg",
       rating: 4.7,
       advantages: [
         "0₽ за ведение счета первые 3 месяца",
@@ -39,7 +39,7 @@ const Index = () => {
     {
       id: 3,
       name: "Тинькофф Банк",
-      logo: "🟡",
+      logo: "/img/7491635d-9b9f-400f-8854-9bdcfd91214b.jpg",
       rating: 4.9,
       advantages: [
         "100% дистанционное обслуживание",
@@ -54,7 +54,7 @@ const Index = () => {
     {
       id: 4,
       name: "ВТБ",
-      logo: "🔵",
+      logo: "/img/95ec266d-b6b1-447a-88c1-966cdaff9a78.jpg",
       rating: 4.6,
       advantages: [
         "Льготный период 6 месяцев",
@@ -69,7 +69,7 @@ const Index = () => {
     {
       id: 5,
       name: "МТС Банк",
-      logo: "📱",
+      logo: "/img/b93cdb5c-59cb-4c60-bdb2-ca1676b9f7ed.jpg",
       rating: 4.5,
       advantages: [
         "Специальные условия для IT",
@@ -84,7 +84,7 @@ const Index = () => {
     {
       id: 6,
       name: "Открытие",
-      logo: "🟠",
+      logo: "/img/b4bb15f4-c6b0-497b-bdf1-3aa05df49b46.jpg",
       rating: 4.4,
       advantages: [
         "Бесплатное РКО при обороте от 100 000₽",
@@ -163,7 +163,9 @@ const Index = () => {
             {banks.map((bank) => (
               <Card key={bank.id} className="hover:shadow-lg transition-all duration-300 border-2 hover:border-primary/20">
                 <CardHeader className="text-center pb-4">
-                  <div className="text-6xl mb-3">{bank.logo}</div>
+                  <div className="w-16 h-16 mx-auto mb-3 rounded-lg overflow-hidden bg-background/50 flex items-center justify-center">
+                    <img src={bank.logo} alt={`${bank.name} логотип`} className="w-12 h-12 object-contain" />
+                  </div>
                   <CardTitle className="text-xl">{bank.name}</CardTitle>
                   <CardDescription className="flex items-center justify-center gap-2">
                     <Icon name="Star" size={16} className="fill-yellow-400 text-yellow-400" />
@@ -203,7 +205,7 @@ const Index = () => {
                     ))}
                   </div>
 
-                  <Button className="w-full text-base font-medium" size="lg">
+                  <Button className="w-full text-base font-medium py-3 h-12" size="lg">
                     <Icon name="ExternalLink" className="mr-2" size={18} />
                     Оформить РКО
                   </Button>
