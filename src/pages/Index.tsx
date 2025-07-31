@@ -375,18 +375,18 @@ const Index = () => {
             <Card className="bg-primary-foreground text-primary">
               <CardHeader>
                 <CardTitle className="flex items-center gap-3">
-                  <Icon name="MapPin" size={24} />
-                  Наш город
+                  <Icon name="Globe" size={24} />
+                  Работаем по всей России
                 </CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-2xl font-bold mb-2">Екатеринбург</p>
+                <p className="text-2xl font-bold mb-2">Дистанционно</p>
                 <p className="text-muted-foreground mb-4">
-                  Помогаем предпринимателям выбрать лучшие условия РКО в банках города
+                  Помогаем предпринимателям выбрать лучшие условия РКО в любом городе России
                 </p>
                 <div className="flex items-center gap-2 text-sm">
                   <Icon name="Clock" size={16} />
-                  <span>Работаем по всей стране дистанционно</span>
+                  <span>Онлайн консультации 24/7</span>
                 </div>
               </CardContent>
             </Card>
